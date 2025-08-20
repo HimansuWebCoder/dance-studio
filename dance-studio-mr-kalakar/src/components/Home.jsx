@@ -18,7 +18,7 @@ function Home() {
 
          	<div className="bg-[url('/images/bg-home-img2.png')]  rounded-lg h-fit bg-no-repeat bg-contain bg-center bg-contain">
          		 <div className="max-w-full h-fit flex justify-center items-center">
-         		 	<img src="/images/home-bg-image-dance-girl3.png" alt="home-bg-image-dance-girl" className="w-200 h-full aspect-[1/1] object-contain" />
+         		 	<img src="/images/home-bg-image-dance-girl4.webp" alt="home-bg-image-dance-girl" className="w-200 h-full aspect-[1/1] object-contain" />
          		 </div>
          	</div>
             
