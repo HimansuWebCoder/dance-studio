@@ -204,50 +204,57 @@ function Navigation() {
 
       {/* Mobile Menu Overlay */}
       {isOpenNavMenu && (
-        <div className="fixed inset-0 bg-black/40 z-40">
-          <nav className="absolute top-0 right-0 w-72 h-full bg-white shadow-2xl p-6 flex flex-col gap-6 animate-slideIn">
-            {links.map((link) =>
-              link.name === "Our Studio" ? (
-                <div key={link.name}>
-                  <button
-                    onClick={openDropDownHandler}
-                    className="flex items-center gap-2 font-bold text-lg hover:text-pink-600 transition"
+  <div
+    className="fixed h-screen inset-0 bg-black/40 z-40 flex justify-end"
+    onClick={() => setIsOpenNavMenu(false)} // closes when clicking outside
+  >
+    <nav
+      className="w-50 max-w-full h-100 bg-white shadow-xl p-6 mt-4 rounded-lg flex flex-col gap-4 overflow-y-auto animate-slideIn"
+      onClick={(e) => e.stopPropagation()} // prevent closing when clicking inside menu
+    >
+      {links.map((link) =>
+        link.name === "Our Studio" ? (
+          <div key={link.name}>
+            <button
+              onClick={openDropDownHandler}
+              className="flex justify-between w-full font-bold text-lg hover:text-pink-600 transition"
+            >
+              {link.name}
+              <MdKeyboardArrowDown
+                size={24}
+                className={`transition-transform ${
+                  openDropDownMenus ? "rotate-180" : ""
+                }`}
+              />
+            </button>
+            {openDropDownMenus && (
+              <div className="mt-2 ml-2 flex flex-col gap-2">
+                {dropDownLinks.map((drop) => (
+                  <a
+                    key={drop.name}
+                    href={drop.href}
+                    className="text-gray-700 hover:text-pink-600 transition"
                   >
-                    {link.name}
-                    <MdKeyboardArrowDown
-                      size="24"
-                      className={`transition-transform ${
-                        openDropDownMenus ? "rotate-180" : ""
-                      }`}
-                    />
-                  </button>
-                  {openDropDownMenus && (
-                    <div className="mt-3 ml-4 flex flex-col gap-3">
-                      {dropDownLinks.map((drop) => (
-                        <a
-                          key={drop.name}
-                          href={drop.href}
-                          className="text-gray-700 hover:text-pink-600 transition"
-                        >
-                          {drop.name}
-                        </a>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              ) : (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  className="font-bold text-lg hover:text-pink-600 transition"
-                >
-                  {link.name}
-                </a>
-              )
+                    {drop.name}
+                  </a>
+                ))}
+              </div>
             )}
-          </nav>
-        </div>
+          </div>
+        ) : (
+          <a
+            key={link.name}
+            href={link.href}
+            className="font-bold text-lg hover:text-pink-600 transition"
+          >
+            {link.name}
+          </a>
+        )
       )}
+    </nav>
+  </div>
+)}
+
     </header>
   );
 }

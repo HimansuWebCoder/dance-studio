@@ -12,9 +12,6 @@ export default function Contact() {
   return (
     <section className="relative py-16 px-6 md:px-12 lg:px-20 bg-gradient-to-r from-[#FDEFF9] to-[#ECF9FF]">
       <div className="max-w-7xl mx-auto text-center mb-12">
-        <h2 className="text-4xl font-bold text-gray-900 mb-4">
-          Get in Touch
-        </h2>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
           Have questions about our dance programs, studio hours, or private lessons? 
           Reach out to us anytime—we’d love to hear from you!
@@ -26,20 +23,21 @@ export default function Contact() {
         <div className="bg-white/60 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:scale-105 transition">
           <Phone className="w-10 h-10 mx-auto text-pink-500 mb-3" />
           <h3 className="text-xl font-semibold text-gray-900">Call Us</h3>
-          <p className="text-gray-600 mt-2">+91 98765 43210</p>
+          <p className="text-gray-600 mt-2">+91 9078230458</p>
+          <p className="text-gray-600 mt-2">+91 8455815913</p>
         </div>
 
         <div className="bg-white/60 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:scale-105 transition">
           <Mail className="w-10 h-10 mx-auto text-pink-500 mb-3" />
           <h3 className="text-xl font-semibold text-gray-900">Email Us</h3>
-          <p className="text-gray-600 mt-2">info@dancestudio.com</p>
+          <p className="text-gray-600 mt-2">studiomrdance4@gmail.com</p>
         </div>
 
         <div className="bg-white/60 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:scale-105 transition">
           <MapPin className="w-10 h-10 mx-auto text-pink-500 mb-3" />
           <h3 className="text-xl font-semibold text-gray-900">Visit Us</h3>
           <p className="text-gray-600 mt-2">
-            123 Rhythm Street, Bhubaneswar, India
+            📍Sundarpada Hitech, Mm mart 3rd floor, Jatni Road, Bhubaneswar, Odisha, India
           </p>
         </div>
       </div>
