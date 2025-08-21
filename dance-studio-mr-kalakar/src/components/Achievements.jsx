@@ -1,33 +1,63 @@
 function Achievements() {
-	return (
-         <div className="max-w-full h-fit m-4 relative flex md:flex-row flex-col gap-2 p-2">
+  return (
+    <div className="max-w-7xl mx-auto m-0 p-4  ">
+      <div className="grid grid-cols-1 gap-4  p-4  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
 
-         	 <div className="grid md:grid-cols-1 grid-cols-2 gap-2 rounded-lg shadow-xl flex justify-center items-center">
-         	 	<div className="rounded-lg p-2">
-         	 		<img src="/images/dance1.jpg" alt="" className="rounded-lg w-full h-full object-contain" />
-         	 	</div>
-         	 	<div className="rounded-lg p-2">
-         	 		<img src="/images/dance2.jpg" alt="" className="rounded-lg w-full h-full object-contain" />
-         	 	</div>
-         	 </div>
+        {/* Big Card Left */}
+        <div className="rounded-none h-[280px]  flex justify-center bg-gradient-to-r from-pink-400 via-purple-400 via-blue-400 via-green-400 to-red-400 p-1 rounded-xl items-center bg-gradient-to-br from-pink-100 via-purple-50 to-pink-50 shadow-lg hover:shadow-2xl transition">
+          <div className="w-full h-full flex rounded-xl justify-center items-center overflow-hidden">
+            <img
+              src="/images/achievement.jpeg"
+              alt="Dance Studio"
+              className="w-full h-full object-cover transform hover:scale-105 transition duration-500"
+            />
+          </div>
+        </div>
 
-         	 	{/*<div className="absolute w-[10rem] p-1 rounded-lg md:w-[40rem] h-fit top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">*/}
-         	 	<div className="rounded-lg shadow-xl p-2 flex justify-center items-center">
-         	 		<img src="/images/about-side-image.jpg" alt="" className="rounded-lg w-full h-full object-contain" />
-         	 	</div>
+        {/* Two Small Grid */}
+        <div className="grid grid-rows-2 gap-2 ">
+          <div className="h-[200px] rounded-xl bg-gradient-to-r from-pink-400 via-purple-400 via-blue-400 via-green-400 to-red-400 p-1 rounded-xl overflow-hidden">
+            <img src="/images/achievement.jpeg" alt="" className="w-full h-full rounded-xl object-cover transform hover:scale-110 transition duration-500" />
+          </div>
+          <div className="h-[200px] rounded-xl bg-gradient-to-r from-pink-400 via-purple-400 via-blue-400 via-green-400 to-red-400 p-1 rounded-xl overflow-hidden">
+            <img src="/images/achievement.jpeg" alt="" className="w-full h-full rounded-xl object-cover transform hover:scale-110 transition duration-500" />
+          </div>
+        </div>
 
-         	 <div className="grid md:grid-cols-1 grid-cols-2 gap-2 rounded-lg shadow-xl flex justify-center items-center">
-         	 	<div className="rounded-lg p-2">
-         	 		<img src="/images/dance3.jpg" alt="" className="rounded-lg w-full h-full object-contain" />
-         	 	</div>
-         	 	<div className="rounded-lg p-2">
-         	 		<img src="/images/dance4.jpg" alt="" className="rounded-lg w-full h-full object-contain" />
-         	 	</div>
-         	 </div>
+        {/* Big Card Middle */}
+        <div className="rounded-none h-[280px] rounded-xl flex justify-center items-center bg-gradient-to-tr from-red-100 via-pink-50 to-red-50 shadow-lg hover:shadow-2xl transition">
+          <div className="w-full h-full rounded-xl bg-gradient-to-r from-pink-400 via-purple-400 via-blue-400 via-green-400 to-red-400 p-1 rounded-xl flex justify-center items-center overflow-hidden">
+            <img
+              src="/images/achievement.jpeg"
+              alt=""
+              className="w-full h-full object-cover transform rounded-xl hover:scale-105 transition duration-500"
+            />
+          </div>
+        </div>
 
+        {/* Another Two Small Grid */}
+        <div className="grid grid-rows-2 gap-2 ">
+          <div className="h-[200px] rounded-xl overflow-hidden bg-gradient-to-r from-pink-400 via-purple-400 via-blue-400 via-green-400 to-red-400 p-1">
+            <img src="/images/achievement.jpeg" alt="" className="w-full h-full rounded-xl object-cover transform hover:scale-110 transition duration-500" />
+          </div>
+          <div className="h-[200px] rounded-xl overflow-hidden bg-gradient-to-r from-pink-400 via-purple-400 via-blue-400 via-green-400 to-red-400 p-1">
+            <img src="/images/achievement.jpeg" alt="" className="w-full h-full rounded-xl object-cover transform hover:scale-110 transition duration-500" />
+          </div>
+        </div>
 
-         </div>
-		)
+        {/* Big Card Right */}
+        <div className="rounded-none h-[280px] flex justify-center items-center bg-gradient-to-bl from-indigo-100 via-purple-50 to-blue-50 shadow-lg hover:shadow-2xl transition">
+          <div className="w-full h-full rounded-xl bg-gradient-to-r from-pink-400 via-purple-400 via-blue-400 via-green-400 to-red-400 p-1 flex justify-center items-center overflow-hidden">
+            <img
+              src="/images/achievement.jpeg"
+              alt=""
+              className="w-full h-full object-cover rounded-xl transform hover:scale-105 transition duration-500"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Achievements;

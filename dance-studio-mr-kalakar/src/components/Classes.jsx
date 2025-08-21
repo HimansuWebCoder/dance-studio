@@ -1,0 +1,80 @@
+function Classes() {
+	return (
+         <div className="max-w-6xl mx-auto px-4 py-10">
+  <h2 className="text-3xl font-bold text-center mb-10">Our Dance Styles</h2>
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+    {/* Card */}
+    <div 
+      className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl focus-within:shadow-2xl transition duration-300 cursor-pointer" 
+      tabIndex="0"
+    >
+      <div className="overflow-hidden">
+        <img 
+          src="/images/style.jpeg" 
+          alt="Hip Hop" 
+          className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
+        />
+      </div>
+      <div className="p-4 text-center">
+        <h3 className="text-lg font-semibold transition group-hover:text-pink-600 group-focus:text-pink-600">Hip Hop</h3>
+      </div>
+    </div>
+
+    {/* Card */}
+    <div 
+      className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl focus-within:shadow-2xl transition duration-300 cursor-pointer" 
+      tabIndex="0"
+    >
+      <div className="overflow-hidden">
+        <img 
+          src="/images/style.jpeg" 
+          alt="Salsa" 
+          className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
+        />
+      </div>
+      <div className="p-4 text-center">
+        <h3 className="text-lg font-semibold transition group-hover:text-pink-600 group-focus:text-pink-600">Salsa</h3>
+      </div>
+    </div>
+
+    {/* Card */}
+    <div 
+      className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl focus-within:shadow-2xl transition duration-300 cursor-pointer" 
+      tabIndex="0"
+    >
+      <div className="overflow-hidden">
+        <img 
+          src="/images/style.jpeg" 
+          alt="Ballet" 
+          className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
+        />
+      </div>
+      <div className="p-4 text-center">
+        <h3 className="text-lg font-semibold transition group-hover:text-pink-600 group-focus:text-pink-600">Ballet</h3>
+      </div>
+    </div>
+
+    {/* Card */}
+    <div 
+      className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl focus-within:shadow-2xl transition duration-300 cursor-pointer" 
+      tabIndex="0"
+    >
+      <div className="overflow-hidden">
+        <img 
+          src="/images/style.jpeg" 
+          alt="Heels" 
+          className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
+        />
+      </div>
+      <div className="p-4 text-center">
+        <h3 className="text-lg font-semibold transition group-hover:text-pink-600 group-focus:text-pink-600">Heels</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+		)
+}
+
+export default Classes;
