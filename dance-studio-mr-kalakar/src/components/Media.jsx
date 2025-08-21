@@ -15,9 +15,9 @@ export default function Media() {
   const gallery = [
     { id: 1, type: "image", src: "/images/dance.webp" },
     { id: 2, type: "image", src: "/images/dance.webp" },
-    { id: 3, type: "video", src: "/videos/dance.mp4" },
-    { id: 4, type: "image", src: "/images/dance.webp" },
-    { id: 5, type: "video", src: "/videos/dance.mp4" },
+    // { id: 3, type: "video", src: "/videos/dance.mp4" },
+    // { id: 4, type: "image", src: "/images/dance.webp" },
+    // { id: 5, type: "video", src: "/videos/dance.mp4" },
     { id: 6, type: "image", src: "/images/dance.webp" },
   ];
 

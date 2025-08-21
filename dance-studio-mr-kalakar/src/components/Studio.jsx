@@ -54,14 +54,14 @@ export default function Studio() {
         {/* Video Card */}
         {activeMedia === "video" && (
           <div className="flex-1 rounded-2xl  max-w-[800px] h-[400px] overflow-hidden shadow-lg">
-            <video
+            {/*<video
               src="/videos/dance.mp4"
               className="w-full h-full object-cover"
               muted
               loop
               autoPlay
               playsInline
-            />
+            />*/}
           </div>
         )}
       </div>

@@ -233,14 +233,14 @@ export default function TestimonialSlider() {
               ) : (
                 <>
                   <div className="w-full aspect-video mb-4 rounded-xl overflow-hidden">
-                    <video
+                    {/*<video
                       controls
                       className="w-full h-full object-cover"
                       poster={t.img}
                     >
                       <source src={t.video} type="video/mp4" />
                       Your browser does not support the video tag.
-                    </video>
+                    </video>*/}
                   </div>
                   <h3 className="font-semibold text-lg">{t.name}</h3>
                   <p className="text-sm text-gray-500">{t.role}</p>
