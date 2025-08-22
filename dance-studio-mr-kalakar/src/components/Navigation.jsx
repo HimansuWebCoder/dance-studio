@@ -112,16 +112,18 @@ import NavMenu from "./ui/NavMenu.jsx";
 const links = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
-  { name: "Our Studio", href: "#studio" },
   { name: "Achievements", href: "#achievements" },
+  { name: "Our Studio", href: "#studio" },
+  { name: "Testimonials", href: "#testimonials" },
   { name: "Contact Us", href: "#contact" },
 ];
 
 const dropDownLinks = [
+  { name: "Our Studio", href: "#studio" },
   { name: "Classes", href: "#classes" },
   { name: "Studio Hours", href: "#studiohours" },
+  { name: "Instructors", href: "#instructors" },
   { name: "Media", href: "#media" },
-  { name: "Feedbacks", href: "#feedbacks" },
 ];
 
 function Navigation() {
@@ -138,7 +140,7 @@ function Navigation() {
   }
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-white/40 backdrop-blur-lg shadow-md">
+    <header className="fixed top-0 z-50 w-full bg-white/40 backdrop-blur-lg shadow-md">
       <div className="max-w-7xl mx-auto px-4 md:px-8 h-20 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center gap-2">
@@ -209,15 +211,15 @@ function Navigation() {
     onClick={() => setIsOpenNavMenu(false)} // closes when clicking outside
   >
     <nav
-      className="w-50 max-w-full h-100 bg-white shadow-xl p-6 mt-4 rounded-lg flex flex-col gap-4 overflow-y-auto animate-slideIn"
+      className="w-50 max-w-full  h-fit bg-gradient-to-r font-poppins text-[#00809D] from-[#F7F7F7] to-[#EFF3EA] shadow-xl p-6 mt-4 rounded-lg flex flex-col gap-4 overflow-y-auto animate-slideIn"
       onClick={(e) => e.stopPropagation()} // prevent closing when clicking inside menu
     >
       {links.map((link) =>
         link.name === "Our Studio" ? (
-          <div key={link.name}>
+          <div key={link.name} className="font-poppins font-medium">
             <button
               onClick={openDropDownHandler}
-              className="flex justify-between w-full font-bold text-lg hover:text-blue-600 transition"
+              className="flex justify-between font-poppins w-full font-bold text-lg hover:text-blue-600 transition"
             >
               {link.name}
               <MdKeyboardArrowDown
@@ -228,7 +230,7 @@ function Navigation() {
               />
             </button>
             {openDropDownMenus && (
-              <div className="mt-2 ml-2 flex flex-col gap-2">
+              <div className="mt-2 ml-2 flex  flex-col gap-2">
                 {dropDownLinks.map((drop) => (
                   <a
                     key={drop.name}
@@ -245,7 +247,7 @@ function Navigation() {
           <a
             key={link.name}
             href={link.href}
-            className="font-bold text-lg hover:text-blue-600 transition"
+            className="font-bold  text-lg hover:text-blue-600 transition"
           >
             {link.name}
           </a>

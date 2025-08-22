@@ -4,7 +4,7 @@ function About() {
   {/* Image Section */}
   <div className="col-span-2 rounded-xl overflow-hidden hover:scale-105 transition-transform duration-500">
     <img 
-      src="/images/dance.webp" 
+      src="/images/mentor.jpeg" 
       alt="MR Kalakar Dance Studio" 
       className="w-full h-full object-cover"
     />
@@ -13,10 +13,10 @@ function About() {
   {/* Text Section */}
   <div className="col-span-3 flex flex-col justify-center gap-6 p-4 md:p-8">
     <h1 className="text-3xl md:text-4xl font-extrabold text-[#243642] font-montserrat tracking-wide">
-      MR Kalakar Dance Studio
+      MR Kalakars Dance Studio
     </h1>
     <p className="text-lg md:text-xl text-[#333446] font-poppins leading-relaxed">
-      At <span className="font-semibold text-[#FF4C60]">MR Kalakar Dance Studio</span>, dance is not just movement – it’s a celebration of <span className="text-[#ffb400]">freedom</span>, <span className="text-[#00bfa6]">joy</span>, and <span className="text-[#7f5af0]">creativity</span>. 
+      At <span className="font-semibold text-[#FF4C60]">MR Kalakars Dance Studio</span>, dance is not just movement – it’s a celebration of <span className="text-[#ffb400]">freedom</span>, <span className="text-[#00bfa6]">joy</span>, and <span className="text-[#7f5af0]">creativity</span>. 
       We welcome dancers of all ages to explore their passion, build confidence, and connect through rhythm and expression. 💃🕺
     </p>
     <p className="text-lg md:text-xl text-[#333446] font-poppins leading-relaxed">

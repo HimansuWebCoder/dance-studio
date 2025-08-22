@@ -4,7 +4,7 @@ export default function Studio() {
   const [activeMedia, setActiveMedia] = useState("image"); // default show image
 
   return (
-    <div className="max-w-6xl mx-auto  flex justify-center items-center flex-col ">
+    <div className="max-w-6xl mx-auto px-4 flex justify-center items-center flex-col ">
 
       {/* Main Display */}
       <div className="flex flex-col md:flex-row w-full bg-gradient-to-r from-blue-600 via-purple-400 via-green-400 via-pink-400 to-blue-600 p-1 rounded-2xl justify-center items-center h-[400px] md:h-[500px] gap-6 mb-10">
@@ -12,7 +12,7 @@ export default function Studio() {
         {activeMedia === "image" && (
           <div className="flex-1 rounded-2xl w-full  h-full overflow-hidden shadow-lg">
             <img
-              src="/images/achievement.jpeg"
+              src="/images/studio.png"
               alt="Studio"
               className="w-full h-full object-cover transform hover:scale-105 transition duration-500"
             />

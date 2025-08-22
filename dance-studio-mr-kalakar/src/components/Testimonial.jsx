@@ -32,10 +32,10 @@ export default function TestimonialSlider() {
   ];
 
   return (
-    <div className="w-full max-w-5xl mx-auto">
-      <h2 className="text-3xl font-bold font-montserrat text-center mb-8">
-        What Our Students Say
-      </h2>
+    <div className="w-full max-w-5xl px-4 pb-8 mx-auto">
+      {/*<h2 className="text-3xl font-bold text-[#0D5EA6] font-montserrat text-center mb-8">
+        What Our Students & Parents Say
+      </h2>*/}
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={30}
@@ -51,7 +51,7 @@ export default function TestimonialSlider() {
       >
         {testimonials.map((t, idx) => (
           <SwiperSlide key={idx}>
-            <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center">
+            <div className="bg-white rounded-2xl border border-[0.01rem] border-blue-200 shadow-lg  p-6 flex flex-col items-center text-center">
               <div className="w-20 h-20 rounded-full overflow-hidden mb-4">
                 <img
                   src={t.img}
@@ -68,7 +68,8 @@ export default function TestimonialSlider() {
                 </>
               ) : (
                 <>
-                  <div className="w-full aspect-video mb-4 rounded-xl overflow-hidden">
+                  <div className="w-20 h-20 aspect-video mb-4 rounded-xl overflow-hidden">
+                  {/*<div className="w-full aspect-video mb-4 rounded-xl overflow-hidden">*/}
                     {/*<video
                       controls
                       className="w-full h-full object-cover"

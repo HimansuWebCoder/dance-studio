@@ -13,25 +13,28 @@ export default function Media() {
   const [selectedMedia, setSelectedMedia] = useState(null);
 
   const gallery = [
-    { id: 1, type: "image", src: "/images/dance.webp" },
-    { id: 2, type: "image", src: "/images/dance.webp" },
+    { id: 1, type: "image", src: "/images/gallery1.jpeg" },
+    { id: 2, type: "image", src: "/images/gallery2.jpeg" },
+    { id: 3, type: "image", src: "/images/gallery3.jpeg" },
+    { id: 4, type: "image", src: "/images/gallery4.jpeg" },
+    { id: 5, type: "image", src: "/images/gallery5.jpeg" },
     // { id: 3, type: "video", src: "/videos/dance.mp4" },
     // { id: 4, type: "image", src: "/images/dance.webp" },
     // { id: 5, type: "video", src: "/videos/dance.mp4" },
-    { id: 6, type: "image", src: "/images/dance.webp" },
+    { id: 6, type: "image", src: "/images/gallery6.jpeg" },
   ];
 
   return (
-    <section className="relative max-w-full py-12 px-4 md:px-12 bg-gradient-to-r from-blue-600 via-purple-400 via-red-500 via-pink-600 to-blue-600">
+    <section className="relative max-w-full py-12 px-4 md:px-12 bg-gradient-to-r from-blue-600 via-purple-400 via-pink-500 via-pink-600 to-blue-600">
       <div className="text-center mb-10">
         <h2 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
-          Media <span className="text-yellow-300">Gallery</span>
+          Media <span className="text-white text-shadow-lg">Gallery</span>
         </h2>
         <p className="text-white/80 mt-2">Explore our dance moments & vibes</p>
       </div>
 
       {/* Gallery Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-6">
         {gallery.map((item) => (
           <motion.div
             key={item.id}
@@ -43,7 +46,7 @@ export default function Media() {
               <img
                 src={item.src}
                 alt="Gallery"
-                className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-50 md:h-64 object-cover transition-transform duration-500 group-hover:scale-110"
               />
             ) : (
               <video
@@ -52,7 +55,7 @@ export default function Media() {
                 loop
                 autoPlay
                 playsInline
-                className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-50 md:h-64 object-cover transition-transform duration-500 group-hover:scale-110"
               />
             )}
 
@@ -87,18 +90,18 @@ export default function Media() {
                 <img
                   src={selectedMedia.src}
                   alt="Preview"
-                  className="w-full h-auto rounded-xl shadow-2xl"
+                  className="w-full h-fit md:h-150 object-cover rounded-xl shadow-2xl"
                 />
               ) : (
                 <video
                   src={selectedMedia.src}
                   controls
                   autoPlay
-                  className="w-full h-auto rounded-xl shadow-2xl"
+                  className="w-full h-fit md:h-150 object-cover rounded-xl shadow-2xl"
                 />
               )}
               <button
-                className="absolute top-4 right-4 bg-red-600 text-white px-3 py-1 rounded-full hover:bg-red-700"
+                className="absolute top-5 right-5 bg-red-600 text-white px-3 py-1 rounded-full  text-xl font-bold aspect-[1/1] hover:bg-red-700"
                 onClick={() => setSelectedMedia(null)}
               >
                 ✕

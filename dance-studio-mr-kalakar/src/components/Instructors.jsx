@@ -18,8 +18,8 @@ export default function Instructors() {
     <section className="w-full bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-4xl mx-auto px-4 ">
         {/* Heading */}
-        <h2 className="text-3xl md:text-4xl font-bold font-montserrat text-center mb-10">
-          Meet Our <span className="text-blue-600">Instructors</span>
+        <h2 className="text-3xl md:text-3xl font-bold font-montserrat text-[#34699A] text-center mb-10">
+          Meet Our <span className="text-[#1B56FD]">Instructors</span>
         </h2>
 
         {/* Cards */}

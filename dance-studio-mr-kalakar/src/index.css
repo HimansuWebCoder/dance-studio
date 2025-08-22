@@ -10,3 +10,7 @@
   --font-montserrat: Montserrat;
   --font-anton: "Anton SC";
 }
+
+html {
+  scroll-behavior: smooth;
+}
