@@ -27,6 +27,12 @@ function App() {
     <SubHeaderIntro name="Dance Grow Belong" />
   </div>
   <About />
+  
+  <div className="py-8 md:py-10 flex justify-center items-center gap-1 flex-col">
+    <HeaderIntro id="studio" name="OUR STUDIO" />
+    <SubHeaderIntro name="A space made for movement" />
+  </div>
+  <Studio />
 
   <div className="py-8 md:py-10 flex justify-center items-center gap-1 flex-col">
     <HeaderIntro id="achievements" name="OUR ACHIEVEMENTS" />
@@ -34,11 +40,6 @@ function App() {
   </div>
   <Achievements />
 
-  <div className="py-8 md:py-10 flex justify-center items-center gap-1 flex-col">
-    <HeaderIntro id="studio" name="OUR STUDIO" />
-    <SubHeaderIntro name="A space made for movement" />
-  </div>
-  <Studio />
 
   <div className="py-8 px-1 md:py-10 flex justify-center items-center gap-1 flex-col">
     <HeaderIntro id="classes" name="OUR CLASSES & PROGRAMS" />
