@@ -37,10 +37,10 @@ export default function Studio() {
     <div className="max-w-6xl mx-auto px-4 py-12 flex justify-center items-center flex-col ">
 
       {/* Main Display */}
-      <div className="flex flex-col md:flex-row w-full justify-center items-center h-[400px] gap-6 mb-10">
+      <div className="flex flex-col md:flex-row w-full justify-center items-center h-[400px] md:h-[500px] gap-6 mb-10">
         {/* Image Card */}
         {activeMedia === "image" && (
-          <div className="flex-1 rounded-2xl border max-w-[800px] border-4 border-pink-400 h-full overflow-hidden shadow-lg">
+          <div className="flex-1 rounded-2xl border w-full  border-4 border-pink-400 h-full overflow-hidden shadow-lg">
             <img
               src="/images/achievement.jpeg"
               alt="Studio"
@@ -53,7 +53,7 @@ export default function Studio() {
 
         {/* Video Card */}
         {activeMedia === "video" && (
-          <div className="flex-1 rounded-2xl  max-w-[800px] h-[400px] overflow-hidden shadow-lg">
+          <div className="flex-1 rounded-2xl w-full h-[400px] overflow-hidden shadow-lg">
             {/*<video
               src="/videos/dance.mp4"
               className="w-full h-full object-cover"

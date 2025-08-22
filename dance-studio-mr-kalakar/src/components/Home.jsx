@@ -6,8 +6,8 @@ function Home() {
   <div className="absolute inset-0 bg-[url('/images/bg.webp')] bg-cover bg-center opacity-10"></div>
   
   {/* Left Content */}
-  <div className="relative z-10 flex flex-col gap-6 justify-center items-start">
-    <h1 className="text-4xl md:text-6xl font-extrabold leading-tight font-poppins bg-gradient-to-r from-pink-500 via-red-500 to-violet-500 bg-clip-text text-transparent">
+  <div className="relative z-10 flex flex-col text-balance gap-6 justify-center items-start">
+    <h1 className="text-4xl md:text-6xl font-extrabold leading-tight font-poppins bg-gradient-to-r from-[#0079FF] via-[#5EABD6] to-pink-500 bg-clip-text text-transparent">
       Express Yourself Through Dance —
       <br className="hidden md:block" />
       Step Into the Rhythm of Life
@@ -19,7 +19,7 @@ function Home() {
 
     {/* CTA Button */}
     <div>
-      <button className="relative flex items-center justify-center gap-2 px-6 md:px-10 py-3 md:py-4 text-lg md:text-xl font-bold rounded-full text-white bg-gradient-to-r from-pink-600 to-violet-600 shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300">
+      <button className="relative flex items-center justify-center gap-2 px-6 md:px-10 py-3 md:py-4 text-lg md:text-xl font-bold rounded-full text-white bg-gradient-to-r from-blue-600 to-pink-600 shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300">
         Join Us Now
         {/* Decorative Stars */}
         <img src="/images/star3.png" alt="" className="absolute -top-2 -right-3 w-6 h-6 md:w-10 md:h-10 animate-bounce" />

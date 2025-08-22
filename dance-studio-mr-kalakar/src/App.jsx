@@ -2,6 +2,7 @@ import Header from "./components/Header.jsx";
 import Navigation from "./components/Navigation.jsx";
 import Home from "./components/Home.jsx";
 import HeaderIntro from "./components/ui/HeaderIntro.jsx";
+import SubHeaderIntro from "./components/ui/SubHeaderIntro.jsx";
 import About from "./components/About.jsx";
 import Achievements from "./components/Achievements.jsx";
 import Studio from "./components/Studio.jsx";
@@ -17,28 +18,29 @@ import Instructors from "./components/Instructors.jsx";
 function App() {
   return (
     <div className="">
-     {/*<Header />*/}
+     <Header />
     <Navigation />
     <Home />
     <HeaderIntro name="ABOUT US"/>
     <About />
-    <HeaderIntro name="Our Achievements"/>
+    <HeaderIntro name="OUR ACHIEVEMENTS"/>
     <Achievements />
-    <HeaderIntro name="Our Studio"/>
+    <HeaderIntro name="OUR STUDIO"/>
     <Studio />
-    <HeaderIntro name="Our Classes"/>
+    <HeaderIntro name="OUR CLASSES"/>
+    <SubHeaderIntro name="Discover Your Dance Styles"/>
     <Classes />
-    <HeaderIntro name="Studio Hours"/>
+    <HeaderIntro name="STUDIO HOURS"/>
     <StudioHours />
-    <HeaderIntro name="Instructors"/>
+    <HeaderIntro name="OUR INSTRUCTORS"/>
     <Instructors />
-    <HeaderIntro name="Our Gallery and Memory"/>
+    <HeaderIntro name="OUR GALLERY/VIDEOS"/>
     <Media />
-    <HeaderIntro name="Feedbacks"/>
+    <HeaderIntro name="TESTIMONIALS"/>
     <Feedback />
-    <HeaderIntro name="Get In Touch"/>
+    <HeaderIntro name="GET IN TOUCH"/>
     <Contact />
-    <HeaderIntro name="Our Social Media"/>
+    {/*<HeaderIntro name=""/>*/}
     <InstagramSection />
     <Footer />
     </div>

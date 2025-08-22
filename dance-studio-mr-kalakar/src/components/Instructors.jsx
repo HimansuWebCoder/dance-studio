@@ -23,13 +23,13 @@ export default function Instructors() {
         </h2>
 
         {/* Cards */}
-        <div className="grid md:grid-cols-2 gap-8 ">
+        <div className="grid md:grid-cols-2 place-content-center gap-8 ">
           {instructors.map((inst, index) => (
             <div
               key={index}
-              className="bg-white shadow-xl flex justify-center items-center p-1 md:flex-row flex-col rounded-2xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+              className="bg-white w-[18rem] md:w-fit md:text-left text-center shadow-xl flex justify-center items-center p-2 md:flex-row flex-col rounded-2xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
             >
-              <div className="h-[10rem] w-[10rem] flex justify-center items-center aspect-[1/1]">
+              <div className="h-[7rem] w-[7rem] md:h-[8rem] md:w-[8rem] flex justify-center items-center aspect-[1/1]">
                 <img
                   src={inst.image}
                   alt={inst.name}

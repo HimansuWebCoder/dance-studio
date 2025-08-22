@@ -22,7 +22,7 @@ function About() {
 
   {/* Text Section */}
   <div className="col-span-3 flex flex-col justify-center gap-6 p-4 md:p-8">
-    <h1 className="text-3xl md:text-4xl font-extrabold text-[#243642] font-roboto tracking-wide">
+    <h1 className="text-3xl md:text-4xl font-extrabold text-[#243642] font-montserrat tracking-wide">
       MR Kalakar Dance Studio
     </h1>
     <p className="text-lg md:text-xl text-[#333446] font-poppins leading-relaxed">
@@ -32,7 +32,7 @@ function About() {
     <p className="text-lg md:text-xl text-[#333446] font-poppins leading-relaxed">
       Every beat tells a story, every step uncovers the artist within. Whether you're here to <span className="font-semibold">learn</span>, <span className="font-semibold">perform</span>, or simply enjoy the magic of dance, join our vibrant community. ✨ <span className="text-[#FF4C60]">Dance. Express. Inspire.</span>
     </p>
-    <button className="self-start bg-gradient-to-r from-[#ff4c60] to-[#ffb400] text-white px-6 py-2 rounded-full font-semibold shadow-lg hover:scale-105 transition-transform duration-300">
+    <button className="self-start bg-gradient-to-r from-[#5EABD6] to-[#2C4E80] text-white px-6 py-2 rounded-full font-semibold shadow-lg hover:scale-105 transition-transform duration-300">
       Join Us Today
     </button>
   </div>

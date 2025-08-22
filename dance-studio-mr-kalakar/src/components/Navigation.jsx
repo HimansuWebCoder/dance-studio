@@ -147,7 +147,7 @@ function Navigation() {
             alt="Logo"
             className="w-12 h-12 object-contain"
           />
-          <h1 className="font-poppins font-bold text-2xl text-pink-600">
+          <h1 className="font-poppins font-bold text-2xl bg-clip-text text-transparent bg-linear-to-r from-[#5EABD6] to-[#0079FF]">
             Dance Studio
           </h1>
         </div>

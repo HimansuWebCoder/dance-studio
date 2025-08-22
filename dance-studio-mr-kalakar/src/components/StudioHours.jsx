@@ -22,7 +22,8 @@ export default function StudioHours() {
               <h3 className="text-2xl font-semibold text-gray-800 mb-4">
                 Weekday Hours
               </h3>
-              <p className="text-gray-600">Mon – Fri: 7:00 AM – 9:00 PM</p>
+              <p className="text-gray-600">Mon – Sat: 8:00 AM – 11:30 AM</p>
+              <p className="text-gray-600">4:00 PM – 9:30 PM</p>
             </div>
           )}
 
@@ -31,31 +32,22 @@ export default function StudioHours() {
               <h3 className="text-2xl font-semibold text-gray-800 mb-4">
                 Weekend Hours
               </h3>
-              <p className="text-gray-600">Sat – Sun: 8:00 AM – 6:00 PM</p>
+              <p className="text-gray-600">Sun: 8:00 AM – 12:00 PM</p>
+              <p className="text-gray-600">3:00 PM – 10 PM</p>
             </div>
           )}
 
-          {activeCard === "holiday" && (
-            <div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-                Holiday Schedule
-              </h3>
-              <p className="text-gray-600">
-                Open on select holidays 🎉 <br />
-                (Check updates on our social media)
-              </p>
-            </div>
-          )}
+          
         </div>
       </div>
 
       {/* Small Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+      <div className="grid grid-cols-2 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
         <button
           onClick={() => setActiveCard("weekday")}
           className={`p-6 rounded-xl shadow-md transition-transform transform hover:scale-105 ${
             activeCard === "weekday"
-              ? "bg-gradient-to-r from-[#077A7D] to-[#273F4F] text-white"
+              ? "bg-gradient-to-r from-[#4793AF] to-[#5272F2] text-white"
               : "bg-white text-gray-800"
           }`}
         >
@@ -67,24 +59,12 @@ export default function StudioHours() {
           onClick={() => setActiveCard("weekend")}
           className={`p-6 rounded-xl shadow-md transition-transform transform hover:scale-105 ${
             activeCard === "weekend"
-              ? "bg-gradient-to-r from-[#077A7D] to-[#273F4F] text-white"
+              ? "bg-gradient-to-r from-[#4793AF] to-[#5272F2] text-white"
               : "bg-white text-gray-800"
           }`}
         >
           <h4 className="text-lg font-semibold mb-2">Weekends</h4>
           <p className="text-sm">Sat – Sun</p>
-        </button>
-
-        <button
-          onClick={() => setActiveCard("holiday")}
-          className={`p-6 rounded-xl shadow-md transition-transform transform hover:scale-105 ${
-            activeCard === "holiday"
-              ? "bg-gradient-to-r from-[#077A7D] to-[#273F4F] text-white"
-              : "bg-white text-gray-800"
-          }`}
-        >
-          <h4 className="text-lg font-semibold mb-2">Holidays</h4>
-          <p className="text-sm">Special Days</p>
         </button>
       </div>
     </section>
