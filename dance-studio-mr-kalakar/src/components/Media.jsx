@@ -22,7 +22,7 @@ export default function Media() {
   ];
 
   return (
-    <section className="relative max-w-full py-12 px-4 md:px-12 bg-gradient-to-br from-purple-800 via-pink-600 to-red-500">
+    <section className="relative max-w-full py-12 px-4 md:px-12 bg-gradient-to-r from-blue-600 via-purple-400 via-red-500 via-pink-600 to-blue-600">
       <div className="text-center mb-10">
         <h2 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
           Media <span className="text-yellow-300">Gallery</span>

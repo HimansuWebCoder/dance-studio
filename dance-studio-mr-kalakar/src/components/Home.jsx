@@ -1,9 +1,10 @@
 function Home() {
 	return (
-    <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8 p-6 md:p-12 m-4 rounded-2xl bg-gradient-to-br from-pink-50 via-white to-violet-50 overflow-hidden">
+    <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8 p-6 md:p-12  bg-gradient-to-br from-pink-50 via-white to-violet-50 overflow-hidden">
   
   {/* Background Accent (subtle pattern / gradient overlay) */}
-  <div className="absolute inset-0 bg-[url('/images/bg.webp')] bg-cover bg-center opacity-10"></div>
+  {/*<div className="absolute inset-0 bg-[url('/images/bg3.jpg')] bg-cover bg-center opacity-20"></div>*/}
+  <div className="absolute inset-0 bg-[url('/images/dancebg.jpg')] bg-cover bg-center opacity-40"></div>
   
   {/* Left Content */}
   <div className="relative z-10 flex flex-col text-balance gap-6 justify-center items-start">

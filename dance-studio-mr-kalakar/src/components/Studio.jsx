@@ -1,46 +1,16 @@
-// function Studio() {
-// 	return (
-//          <div>
-//          	<div className="flex">
-//          		<div className="">
-//          			<img src="./images/dance.webp" alt="" className="w-full h-full object-contain" />
-//          		</div>
-//          		<div className="w-full h-full p-4">
-//          			<video
-// 			        src="/videos/dance.mp4"
-// 			        className="w-full h-full object-cover"
-// 			        muted
-// 			        loop
-// 			        autoPlay
-// 			        playsInline
-//                      />
-//          		</div>
-//          	</div>
-//          	<div>
-//          		<div></div>
-//          		<div></div>
-//          		<div></div>
-//          		<div></div>
-//          	</div>
-//          </div>
-// 		)
-// }
-
-// export default Studio;
-
 import { useState } from "react";
 
 export default function Studio() {
   const [activeMedia, setActiveMedia] = useState("image"); // default show image
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12 flex justify-center items-center flex-col ">
+    <div className="max-w-6xl mx-auto  flex justify-center items-center flex-col ">
 
       {/* Main Display */}
-      <div className="flex flex-col md:flex-row w-full justify-center items-center h-[400px] md:h-[500px] gap-6 mb-10">
+      <div className="flex flex-col md:flex-row w-full bg-gradient-to-r from-blue-600 via-purple-400 via-green-400 via-pink-400 to-blue-600 p-1 rounded-2xl justify-center items-center h-[400px] md:h-[500px] gap-6 mb-10">
         {/* Image Card */}
         {activeMedia === "image" && (
-          <div className="flex-1 rounded-2xl border w-full  border-4 border-pink-400 h-full overflow-hidden shadow-lg">
+          <div className="flex-1 rounded-2xl w-full  h-full overflow-hidden shadow-lg">
             <img
               src="/images/achievement.jpeg"
               alt="Studio"
@@ -72,7 +42,7 @@ export default function Studio() {
         {/* Image Thumbnail */}
         <div
           className={`cursor-pointer rounded-xl overflow-hidden shadow-md hover:shadow-xl transition border-2 ${
-            activeMedia === "image" ? "border-pink-500" : "border-transparent"
+            activeMedia === "image" ? "border-blue-600" : "border-transparent"
           }`}
           onClick={() => setActiveMedia("image")}
         >
@@ -86,7 +56,7 @@ export default function Studio() {
         {/* Video Thumbnail */}
         <div
           className={`cursor-pointer rounded-xl overflow-hidden shadow-md hover:shadow-xl transition border-2 ${
-            activeMedia === "video" ? "border-pink-500" : "border-transparent"
+            activeMedia === "video" ? "border-blue-600" : "border-transparent"
           }`}
           onClick={() => setActiveMedia("video")}
         >

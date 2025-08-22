@@ -17,7 +17,7 @@ import Instructors from "./components/Instructors.jsx";
 
 function App() {
   return (
-    <div className="">
+    <div className="bg-[url(/images/bg2.jpg) bg-cover bg-no-repeat h-screen]">
      <Header />
     <Navigation />
     <Home />

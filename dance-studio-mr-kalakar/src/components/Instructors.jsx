@@ -15,11 +15,11 @@ export default function Instructors() {
   ];
 
   return (
-    <section className="w-full py-12 bg-gradient-to-b from-white to-gray-50">
+    <section className="w-full bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-4xl mx-auto px-4 ">
         {/* Heading */}
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
-          Meet Our <span className="text-pink-600">Instructors</span>
+        <h2 className="text-3xl md:text-4xl font-bold font-montserrat text-center mb-10">
+          Meet Our <span className="text-blue-600">Instructors</span>
         </h2>
 
         {/* Cards */}
@@ -29,7 +29,7 @@ export default function Instructors() {
               key={index}
               className="bg-white w-[18rem] md:w-fit md:text-left text-center shadow-xl flex justify-center items-center p-2 md:flex-row flex-col rounded-2xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
             >
-              <div className="h-[7rem] w-[7rem] md:h-[8rem] md:w-[8rem] flex justify-center items-center aspect-[1/1]">
+              <div className="h-[7rem] w-[7rem] md:h-[7rem] md:w-[7rem] flex justify-center items-center aspect-[1/1]">
                 <img
                   src={inst.image}
                   alt={inst.name}
@@ -37,9 +37,9 @@ export default function Instructors() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold">{inst.name}</h3>
-                <p className="text-pink-600 font-medium mb-3">{inst.role}</p>
-                <p className="text-gray-600 text-sm">{inst.bio}</p>
+                <h3 className="text-xl font-semibold font-poppins">{inst.name}</h3>
+                <p className="text-blue-600 font-medium font-montserrat -3">{inst.role}</p>
+                <p className="text-gray-600 text-sm font-poppins tracking-wider">{inst.bio}</p>
               </div>
             </div>
           ))}

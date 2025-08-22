@@ -3,7 +3,7 @@ function NavMenu({name, hrefLink}) {
 
          	      <a 
          		  href={hrefLink} 
-         		  className="font-poppins hover:underline decoration-[#6A9C89] text-[#273F4F] text-balance font-bold text-xl tracking-widest">
+         		  className="font-poppins hover:text-[#4793AF] decoration-[#6A9C89] text-[#273F4F] text-balance font-bold text-xl tracking-widest">
                    {name}         		  	
          		  </a>
 

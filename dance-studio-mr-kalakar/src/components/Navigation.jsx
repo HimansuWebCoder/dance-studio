@@ -159,7 +159,7 @@ function Navigation() {
               <div key={link.name} className="relative">
                 <button
                   onClick={openDropDownHandler}
-                  className="flex items-center gap-1 hover:text-pink-600 transition"
+                  className="flex items-center gap-1 text-bold font-poppins hover:text-blue-600 transition"
                 >
                   {link.name}
                   <MdKeyboardArrowDown
@@ -175,7 +175,7 @@ function Navigation() {
                       <a
                         key={drop.name}
                         href={drop.href}
-                        className="hover:text-pink-600 transition"
+                        className="hover:text-blue-600 transition"
                       >
                         {drop.name}
                       </a>
@@ -217,7 +217,7 @@ function Navigation() {
           <div key={link.name}>
             <button
               onClick={openDropDownHandler}
-              className="flex justify-between w-full font-bold text-lg hover:text-pink-600 transition"
+              className="flex justify-between w-full font-bold text-lg hover:text-blue-600 transition"
             >
               {link.name}
               <MdKeyboardArrowDown
@@ -233,7 +233,7 @@ function Navigation() {
                   <a
                     key={drop.name}
                     href={drop.href}
-                    className="text-gray-700 hover:text-pink-600 transition"
+                    className="text-gray-700 hover:text-blue-600 transition"
                   >
                     {drop.name}
                   </a>
@@ -245,7 +245,7 @@ function Navigation() {
           <a
             key={link.name}
             href={link.href}
-            className="font-bold text-lg hover:text-pink-600 transition"
+            className="font-bold text-lg hover:text-blue-600 transition"
           >
             {link.name}
           </a>
