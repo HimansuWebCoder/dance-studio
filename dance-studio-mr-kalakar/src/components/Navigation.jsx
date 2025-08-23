@@ -50,13 +50,13 @@ function Navigation() {
         </div>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex items-center gap-6 font-poppins text-lg font-medium text-gray-800">
+        <nav className="hidden md:flex items-center gap-6 font-poppins text-lg font-semibold text-gray-800">
           {links.map((link) =>
             link.name === "Our Studio" ? (
               <div key={link.name} className="relative">
                 <button
                   onClick={openDropDownHandler}
-                  className="flex items-center gap-1 text-bold font-poppins hover:text-blue-600 transition"
+                  className="flex items-center gap-1 font-poppins hover:text-blue-600 transition"
                 >
                   {link.name}
                   <MdKeyboardArrowDown
