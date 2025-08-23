@@ -75,13 +75,13 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-4 text-pink-400">Follow Us</h3>
           <div className="flex gap-4">
-            <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-pink-500 flex items-center justify-center transition">
+            <a href="#" target="_blank" className="w-10 h-10 rounded-full bg-white/10 hover:bg-pink-500 flex items-center justify-center transition">
               <FaFacebookF />
             </a>
-            <a href="https://www.instagram.com/the_m.r_studio?igsh=cnVheWExNnkzcng2" className="w-10 h-10 rounded-full bg-white/10 hover:bg-pink-500 flex items-center justify-center transition">
+            <a href="https://www.instagram.com/the_m.r_studio?igsh=cnVheWExNnkzcng2" target="_blank" className="w-10 h-10 rounded-full bg-white/10 hover:bg-pink-500 flex items-center justify-center transition">
               <FaInstagram />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-pink-500 flex items-center justify-center transition">
+            <a href="#" target="_blank" className="w-10 h-10 rounded-full bg-white/10 hover:bg-pink-500 flex items-center justify-center transition">
               <FaYoutube />
             </a>
           </div>
