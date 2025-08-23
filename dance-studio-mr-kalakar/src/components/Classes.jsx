@@ -129,7 +129,7 @@ function Classes() {
         />
       </div>
       <div className="p-4 text-center">
-        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">Private Lessons</h3>
+        <h3 className="text-lg text-[#2C4E80] font-semibold font-poppins transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">Private Lessons</h3>
       </div>
     </div>
 
@@ -146,7 +146,7 @@ function Classes() {
         />
       </div>
       <div className="p-4 text-center">
-        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">Solo Choreography</h3>
+        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] font-poppins group-focus:text-[#4793AF]">Solo Choreography</h3>
       </div>
     </div>
 
@@ -163,7 +163,7 @@ function Classes() {
         />
       </div>
       <div className="p-4 text-center">
-        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">School Choreography</h3>
+        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF] font-poppins">School Choreography</h3>
       </div>
     </div>
 
@@ -180,7 +180,7 @@ function Classes() {
         />
       </div>
       <div className="p-4 text-center">
-        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">Sangeet Choreography</h3>
+        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF] font-poppins">Sangeet Choreography</h3>
       </div>
     </div>
 
@@ -197,7 +197,7 @@ function Classes() {
         />
       </div>
       <div className="p-4 text-center">
-        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">Music Video Choreography</h3>
+        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF] font-poppins">Music Video Choreography</h3>
       </div>
     </div>
 
