@@ -16,7 +16,7 @@ function Classes() {
         <img 
           src="/images/hiphop3.jpg" 
           alt="Hip Hop" 
-          className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
+          className="w-full h-48 object-cover object-[25%_30%] transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
         />
       </div>
       <div className="p-4 text-center">
@@ -33,7 +33,7 @@ function Classes() {
         <img 
           src="/images/style.jpeg" 
           alt="Salsa" 
-          className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
+          className="w-full h-48 object-cover object-[25%_30%] transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
         />
       </div>
       <div className="p-4 text-center">
@@ -50,7 +50,7 @@ function Classes() {
         <img 
           src="/images/hindustani.jpg" 
           alt="Ballet" 
-          className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
+          className="w-full h-48 object-cover object-[25%_10%] transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
         />
       </div>
       <div className="p-4 text-center">
@@ -67,7 +67,7 @@ function Classes() {
         <img 
           src="/images/guitar.jpg" 
           alt="Heels" 
-          className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
+          className="w-full h-48 object-cover object-[15%_20%] transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
         />
       </div>
       <div className="p-4 text-center">

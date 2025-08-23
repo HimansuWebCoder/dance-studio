@@ -4,7 +4,7 @@ export default function Instructors() {
       name: "Mausumi Das",
       role: "Hip-Hop Instructor",
       image: "/images/mentor.jpeg",
-      bio: "Specialist in freestyle, urban hip-hop, and choreography with 8+ years of experience.",
+      bio: "Specialist in freestyle, urban hip-hop, and choreography with 4+ years of experience.",
     },
     {
       name: "Meera Patel",
