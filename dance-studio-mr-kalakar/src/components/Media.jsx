@@ -49,7 +49,7 @@ export default function Media() {
               <img
                 src={item.src}
                 alt="Gallery"
-                className="w-full h-40 md:h-64 object-[center_20%] md:object-[top_30%]  object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-40 md:h-64  object-[15%_30%]  object-cover transition-transform duration-500 group-hover:scale-110"
               />
             ) : (
               <video
@@ -93,7 +93,7 @@ export default function Media() {
                 <img
                   src={selectedMedia.src}
                   alt="Preview"
-                  className="w-full h-fit md:h-150 object-cover rounded-xl shadow-2xl"
+                  className="w-full h-fit md:h-150 object-[15%_20%] object-cover rounded-xl shadow-2xl"
                 />
               ) : (
                 <video
