@@ -11,7 +11,7 @@ function About() {
   </div>
 
   {/* Text Section */}
-  <div className="col-span-3 flex flex-col justify-center gap-6 p-4 md:p-8 border">
+  <div className="col-span-3 flex flex-col justify-center gap-6 p-4 md:p-8">
     <h1 className="text-3xl md:text-4xl md:py-1 py-4 font-extrabold text-[#243642] font-montserrat tracking-wide">
       MR Kalakars Dance Studio
     </h1>
