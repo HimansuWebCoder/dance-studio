@@ -12,14 +12,14 @@ export default function TestimonialSlider() {
       role: "Student",
       content:
         "The dance studio completely changed my life. Teachers are so supportive and the atmosphere is magical.",
-      img: "/images/dance.webp",
+      img: "/images/user.png",
     },
     {
       type: "video",
       name: "Rahul Verma",
       role: "Performer",
       video: "/videos/dance.mp4",
-      img: "/images/dance.webp",
+      img: "/images/user.png",
     },
     {
       type: "text",
@@ -27,7 +27,7 @@ export default function TestimonialSlider() {
       role: "Parent",
       content:
         "My daughter loves her classes here! She has grown so much in confidence and grace.",
-      img: "/images/dance.webp",
+      img: "/images/user.png",
     },
   ];
 
@@ -62,9 +62,9 @@ export default function TestimonialSlider() {
 
               {t.type === "text" ? (
                 <>
-                  <p className="text-gray-600 mb-4">{t.content}</p>
-                  <h3 className="font-semibold text-lg">{t.name}</h3>
-                  <p className="text-sm text-gray-500">{t.role}</p>
+                  <p className="text-gray-600 mb-4 font-poppins">{t.content}</p>
+                  <h3 className="font-semibold text-[#44444E] text-lg font-poppins">{t.name}</h3>
+                  <p className="text-sm text-gray-500 font-poppins">{t.role}</p>
                 </>
               ) : (
                 <>

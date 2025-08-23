@@ -1,9 +1,9 @@
 function Classes() {
 	return (
-         <div className="max-w-6xl mx-auto px-4 py-5">
+         <div className="max-w-6xl mx-auto px-4 ">
   {/*<h2 className="text-2xl text-[#2C4E80] font-montserrat font-bold text-center mb-10">Discover Your Dance Styles</h2>*/}
          <div className="">
-       <h1 className="font-bold text-3xl font-poppins py-8 text-[#0D5EA6]">Classes & Programs</h1>
+       <h1 className="font-medium text-3xl font-poppins py-8 text-[#0D5EA6]">Classes & Programs</h1>
    </div>
 
   <div className="grid grid-cols-2 sm:grid-cols-2 font-poppins md:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -14,13 +14,13 @@ function Classes() {
     >
       <div className="overflow-hidden">
         <img 
-          src="/images/style.jpeg" 
+          src="/images/hiphop3.jpg" 
           alt="Hip Hop" 
           className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
         />
       </div>
       <div className="p-4 text-center">
-        <h3 className="text-lg text-[#2C4E80] text-[#2C4E80] font-semibold  transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">Hip-Hop & Freestyle (All Levels)</h3>
+        <h3 className="text-lg text-[#2C4E80] text-[#2C4E80] font-semibold  transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">Hip-Hop & Freestyle <span className="text-sm font-poppins text-[#4793AF]">(All Levels)</span></h3>
       </div>
     </div>
 
@@ -37,7 +37,7 @@ function Classes() {
         />
       </div>
       <div className="p-4 text-center">
-        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">Odissi (Classical Dance, All Levels)</h3>
+        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">Odissi <span className="text-sm font-poppins text-[#4793AF]">(Classical Dance, All Levels)</span></h3>
       </div>
     </div>
 
@@ -48,13 +48,13 @@ function Classes() {
     >
       <div className="overflow-hidden">
         <img 
-          src="/images/style.jpeg" 
+          src="/images/hindustani.jpg" 
           alt="Ballet" 
           className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
         />
       </div>
       <div className="p-4 text-center">
-        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">Hindustani Vocal (All Levels)</h3>
+        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">Hindustani Vocal <span className="text-sm font-poppins text-[#4793AF]">(All Levels)</span></h3>
       </div>
     </div>
 
@@ -65,13 +65,13 @@ function Classes() {
     >
       <div className="overflow-hidden">
         <img 
-          src="/images/style.jpeg" 
+          src="/images/guitar.jpg" 
           alt="Heels" 
           className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
         />
       </div>
       <div className="p-4 text-center">
-        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">Guitar (All Levels)</h3>
+        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">Guitar <span className="text-sm font-poppins text-[#4793AF]">(All Levels)</span></h3>
       </div>
     </div>
 
@@ -82,13 +82,13 @@ function Classes() {
     >
       <div className="overflow-hidden">
         <img 
-          src="/images/style.jpeg" 
+          src="/images/art&craft.jpg" 
           alt="Heels" 
           className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
         />
       </div>
       <div className="p-4 text-center">
-        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">Art & Craft (All Levels)</h3>
+        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">Art & Craft <span className="text-sm font-poppins text-[#4793AF]">(All Levels)</span></h3>
       </div>
     </div>
 
@@ -99,31 +99,31 @@ function Classes() {
     >
       <div className="overflow-hidden">
         <img 
-          src="/images/style.jpeg" 
+          src="/images/gymnastics.jpg" 
           alt="Heels" 
           className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
         />
       </div>
       <div className="p-4 text-center">
-        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">Gymnastics (All Levels)</h3>
+        <h3 className="text-lg text-[#2C4E80] font-semibold transition group-hover:text-[#4793AF] group-focus:text-[#4793AF]">Gymnastics <span className="text-sm font-poppins text-[#4793AF]">(All Levels)</span></h3>
       </div>
     </div>
 
   </div>
 
    <div className="">
-       <h1 className="font-bold text-3xl font-poppins py-8 text-[#0D5EA6]">Beyond the Classroom</h1>
+       <h1 className="font-medium text-3xl font-poppins py-8 text-[#0D5EA6]">Beyond the Classroom</h1>
    </div>
 
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
        {/* Card */}
     <div 
-      className="group py-8 bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl focus-within:shadow-2xl transition duration-300 cursor-pointer" 
+      className="group h-fit bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl focus-within:shadow-2xl transition duration-300 cursor-pointer" 
       tabIndex="0"
     >
       <div className="overflow-hidden">
         <img 
-          src="/images/style.jpeg" 
+          src="/images/private-lessons.jpg" 
           alt="Heels" 
           className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
         />
@@ -135,12 +135,12 @@ function Classes() {
 
     {/* Card */}
     <div 
-      className="group py-8 bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl focus-within:shadow-2xl transition duration-300 cursor-pointer" 
+      className="group h-fit bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl focus-within:shadow-2xl transition duration-300 cursor-pointer" 
       tabIndex="0"
     >
       <div className="overflow-hidden">
         <img 
-          src="/images/style.jpeg" 
+          src="/images/solo-choreography.jpg" 
           alt="Heels" 
           className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
         />
@@ -152,12 +152,12 @@ function Classes() {
 
     {/* Card */}
     <div 
-      className="group py-8 bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl focus-within:shadow-2xl transition duration-300 cursor-pointer" 
+      className="group h-fit bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl focus-within:shadow-2xl transition duration-300 cursor-pointer" 
       tabIndex="0"
     >
       <div className="overflow-hidden">
         <img 
-          src="/images/style.jpeg" 
+          src="/images/school-choreography2.jpg" 
           alt="Heels" 
           className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
         />
@@ -169,12 +169,12 @@ function Classes() {
 
     {/* Card */}
     <div 
-      className="group py-8 bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl focus-within:shadow-2xl transition duration-300 cursor-pointer" 
+      className="group h-fit bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl focus-within:shadow-2xl transition duration-300 cursor-pointer" 
       tabIndex="0"
     >
       <div className="overflow-hidden">
         <img 
-          src="/images/style.jpeg" 
+          src="/images/sangeet-choreography.jpg" 
           alt="Heels" 
           className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
         />
@@ -186,12 +186,12 @@ function Classes() {
 
     {/* Card */}
     <div 
-      className="group py-8 bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl focus-within:shadow-2xl transition duration-300 cursor-pointer" 
+      className="group h-fit bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl focus-within:shadow-2xl transition duration-300 cursor-pointer" 
       tabIndex="0"
     >
       <div className="overflow-hidden">
         <img 
-          src="/images/style.jpeg" 
+          src="/images/music-video-choreography.jpg" 
           alt="Heels" 
           className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
         />

@@ -78,7 +78,7 @@ export default function Footer() {
             <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-pink-500 flex items-center justify-center transition">
               <FaFacebookF />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-pink-500 flex items-center justify-center transition">
+            <a href="https://www.instagram.com/the_m.r_studio?igsh=cnVheWExNnkzcng2" className="w-10 h-10 rounded-full bg-white/10 hover:bg-pink-500 flex items-center justify-center transition">
               <FaInstagram />
             </a>
             <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-pink-500 flex items-center justify-center transition">

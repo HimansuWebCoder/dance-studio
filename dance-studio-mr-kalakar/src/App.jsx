@@ -61,7 +61,7 @@ function App() {
 
   <div className="py-8 md:py-10 flex justify-center items-center gap-1 flex-col">
     <HeaderIntro id="media" name="OUR GALLERY & VIDEOS" />
-    <SubHeaderIntro name="Every step, a story " />
+    <SubHeaderIntro name="Explore our dance moments & vibes " />
   </div>
   <Media />
 

@@ -22,19 +22,22 @@ export default function Media() {
     // { id: 4, type: "image", src: "/images/dance.webp" },
     // { id: 5, type: "video", src: "/videos/dance.mp4" },
     { id: 6, type: "image", src: "/images/gallery6.jpeg" },
+    { id: 6, type: "image", src: "/images/gallery7.jpeg" },
+    { id: 6, type: "image", src: "/images/gallery8.jpeg" },
+    { id: 6, type: "image", src: "/images/achievement1.jpeg" },
   ];
 
   return (
     <section className="relative max-w-full py-12 px-4 md:px-12 bg-gradient-to-r from-blue-600 via-purple-400 via-pink-500 via-pink-600 to-blue-600">
-      <div className="text-center mb-10">
-        <h2 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
+      {/*<div className="text-center mb-8">*/}
+        {/*<h2 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
           Media <span className="text-white text-shadow-lg">Gallery</span>
-        </h2>
-        <p className="text-white/80 mt-2">Explore our dance moments & vibes</p>
-      </div>
+        </h2>*/}
+        {/*<p className="text-white/80 text-xl mt-2">Explore our dance moments & vibes</p>*/}
+      {/*</div>*/}
 
       {/* Gallery Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-6">
+      <div className="grid grid-cols-3  sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-6">
         {gallery.map((item) => (
           <motion.div
             key={item.id}
@@ -46,7 +49,7 @@ export default function Media() {
               <img
                 src={item.src}
                 alt="Gallery"
-                className="w-full h-50 md:h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-40 md:h-64 object-[center_20%] md:object-[top_30%]  object-cover transition-transform duration-500 group-hover:scale-110"
               />
             ) : (
               <video
