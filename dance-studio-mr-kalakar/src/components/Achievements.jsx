@@ -1,7 +1,7 @@
 function Achievements() {
   return (
-    <div className="max-w-7xl mx-auto m-0 ">
-      <div className="grid grid-cols-2 gap-2 p-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <div className="max-w-7xl mx-auto m-0 md:px-0 px-4">
+      <div className="grid grid-cols-2 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 
         {/* Big Card Left */}
         {/*<div className="rounded-none h-[200px] md:h-[200px] md:h-[280px]  flex justify-center bg-gradient-to-r from-blue-600 via-purple-400 via-green-400 via-red-400 to-blue-600 p-0 rounded-xl items-center bg-gradient-to-br from-pink-100 via-purple-50 to-pink-50 shadow-lg hover:shadow-2xl transition">*/}

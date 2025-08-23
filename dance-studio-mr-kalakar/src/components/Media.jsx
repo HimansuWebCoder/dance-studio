@@ -28,7 +28,7 @@ export default function Media() {
   ];
 
   return (
-    <section className="relative max-w-full py-12 px-4 md:px-12 bg-gradient-to-r from-blue-600 via-purple-400 via-pink-500 via-pink-600 to-blue-600">
+    <section className="relative max-w-full py-12  md:px-10 bg-gradient-to-r from-blue-600 via-purple-400 via-pink-500 via-pink-600 to-blue-600">
       {/*<div className="text-center mb-8">*/}
         {/*<h2 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
           Media <span className="text-white text-shadow-lg">Gallery</span>
@@ -37,7 +37,7 @@ export default function Media() {
       {/*</div>*/}
 
       {/* Gallery Grid */}
-      <div className="grid grid-cols-3  sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-6">
+      <div className="grid grid-cols-3  md:px-0 px-4 max-w-7xl sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-6">
         {gallery.map((item) => (
           <motion.div
             key={item.id}

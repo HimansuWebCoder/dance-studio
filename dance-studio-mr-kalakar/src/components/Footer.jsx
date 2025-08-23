@@ -60,7 +60,7 @@ export default function Footer() {
           <h3 className="text-lg font-semibold font-poppins mb-4 text-pink-400">Contact Us</h3>
           <ul className="space-y-3 text-gray-300">
             <li className="flex items-center gap-2 font-poppins">
-              <MdPhone className="text-pink-400 text-xl" /> +91-9827074303 / +91-9078230458
+              <MdPhone className="text-pink-400 text-xl" /> +91-9827074303, +91-9078230458, +91-8455815913
             </li>
             <li className="flex items-center gap-2 font-poppins tracking-wider">
               <MdEmail className="text-pink-400 text-xl" /> studiomrdance4@gmail.com

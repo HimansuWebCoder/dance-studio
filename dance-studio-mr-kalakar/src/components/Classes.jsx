@@ -1,6 +1,6 @@
 function Classes() {
 	return (
-         <div className="max-w-6xl mx-auto px-4 ">
+         <div className="max-w-7xl mx-auto md:px-0 px-4">
   {/*<h2 className="text-2xl text-[#2C4E80] font-montserrat font-bold text-center mb-10">Discover Your Dance Styles</h2>*/}
          <div className="">
        <h1 className="font-medium text-3xl font-poppins py-8 text-[#0D5EA6]">Classes & Programs</h1>

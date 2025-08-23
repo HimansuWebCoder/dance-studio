@@ -15,10 +15,9 @@ export default function Contact() {
         <div className="bg-white/60 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:scale-105 transition">
           <Phone className="w-10 h-10 mx-auto text-pink-500 mb-3" />
           <h3 className="text-xl font-semibold text-[#456882] font-montserrat">Call Us</h3>
-          <p className="mt-2 font-poppins text-[#547792]">+91 9078230458</p>
+          <p className="mt-2 font-poppins text-[#547792]">+91 9827074303</p>
           <p className="mt-2 font-poppins text-[#547792]">+91 8455815913</p>
-          <p className="mt-2 font-poppins text-[#547792]">Or</p>
-          <p className="mt-2 font-poppins text-[#547792]">+91 9078230458</p>
+          <p className="mt-2 font-poppins text-[#547792]">Studio: +91 9078230458</p>
         </div>
 
         <div className="bg-white/60 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:scale-105 transition">
@@ -30,7 +29,7 @@ export default function Contact() {
         <div className="bg-white/60 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:scale-105 transition">
           <MapPin className="w-10 h-10 mx-auto text-pink-500 mb-3" />
           <h3 className="text-xl font-semibold text-[#547792] font-poppins">Visit Us</h3>
-          <p className="text-gray-600 mt-2">
+          <p className="mt-2 text-[#547792] font-poppins">
             📍Sundarpada Hitech, Mm mart 3rd floor, Jatni Road, Bhubaneswar, Odisha, India
           </p>
         </div>

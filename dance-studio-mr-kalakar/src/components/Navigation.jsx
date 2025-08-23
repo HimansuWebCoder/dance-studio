@@ -8,14 +8,14 @@ const links = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
   { name: "Our Studio", href: "#studio" },
-  { name: "Achievements", href: "#achievements" },
   { name: "Testimonials", href: "#testimonials" },
   { name: "Contact Us", href: "#contact" },
 ];
 
 const dropDownLinks = [
   { name: "Our Studio", href: "#studio" },
-  { name: "Classes", href: "#classes" },
+  { name: "Achievements", href: "#achievements" },
+  { name: "Classes & Programs", href: "#classes" },
   { name: "Studio Hours", href: "#studiohours" },
   { name: "Instructors", href: "#instructors" },
   { name: "Media", href: "#media" },
@@ -35,10 +35,10 @@ function Navigation() {
   }
 
   return (
-    <header className="fixed top-0 z-50 w-full bg-white/40 backdrop-blur-lg shadow-md">
-      <div className="max-w-7xl mx-auto px-4 md:px-8 h-20 flex justify-between items-center">
+    <header className="fixed top-0 z-50 w-full  bg-white/40 backdrop-blur-lg shadow-md">
+      <div className="max-w-7xl  mx-auto md:px-0 px-4  h-20 flex justify-between items-center">
         {/* Logo */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center  gap-2">
           <img
             src="./images/logo.webp"
             alt="Logo"
@@ -56,7 +56,7 @@ function Navigation() {
               <div key={link.name} className="relative">
                 <button
                   onClick={openDropDownHandler}
-                  className="flex items-center gap-1 font-poppins hover:text-blue-600 transition"
+                  className="flex items-center gap-1 font-poppins  text-xl tracking-widest hover:text-blue-600 transition"
                 >
                   {link.name}
                   <MdKeyboardArrowDown
@@ -130,7 +130,7 @@ function Navigation() {
                   <a
                     key={drop.name}
                     href={drop.href}
-                    className="text-gray-700 hover:text-blue-600 transition"
+                    className="text-gray-700 focus:text-blue-600 hover:text-blue-600 transition"
                   >
                     {drop.name}
                   </a>

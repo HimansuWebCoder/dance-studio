@@ -4,7 +4,7 @@ export default function Studio() {
   const [activeMedia, setActiveMedia] = useState("image"); // default show image
 
   return (
-    <div className="max-w-6xl mx-auto px-4 flex justify-center items-center flex-col ">
+    <div className="max-w-7xl mx-auto md:px-0 px-4 flex justify-center items-center flex-col ">
 
       {/* Main Display */}
       <div className="flex flex-col md:flex-row w-full  p-0 rounded-2xl justify-center items-center h-[400px] md:h-[500px] gap-6 mb-10">

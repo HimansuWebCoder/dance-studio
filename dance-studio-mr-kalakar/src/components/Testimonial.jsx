@@ -15,12 +15,20 @@ export default function TestimonialSlider() {
       img: "/images/user.png",
     },
     {
-      type: "video",
-      name: "Rahul Verma",
-      role: "Performer",
-      video: "/videos/dance.mp4",
+      type: "text",
+      name: "Priyanka Sharma",
+      role: "Student",
+      content:
+        "The dance studio completely changed my life. Teachers are so supportive and the atmosphere is magical.",
       img: "/images/user.png",
     },
+    // {
+    //   type: "video",
+    //   name: "Rahul Verma",
+    //   role: "Performer",
+    //   video: "/videos/dance.mp4",
+    //   img: "/images/user.png",
+    // },
     {
       type: "text",
       name: "Priya Nair",
@@ -32,7 +40,7 @@ export default function TestimonialSlider() {
   ];
 
   return (
-    <div className="w-full max-w-5xl px-4 pb-8 mx-auto">
+    <div className="max-w-7xl md:px-0 px-4  pb-8 mx-auto">
       {/*<h2 className="text-3xl font-bold text-[#0D5EA6] font-montserrat text-center mb-8">
         What Our Students & Parents Say
       </h2>*/}
