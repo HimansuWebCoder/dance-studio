@@ -35,7 +35,7 @@ export default function StudioHours() {
       </div>
 
       {/* Small Cards */}
-      <div className="grid grid-cols-2 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      <div className="grid grid-cols-2 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
         <button
           onClick={() => setActiveCard("weekday")}
           className={`p-6 rounded-xl shadow-md transition-transform transform hover:scale-105 ${

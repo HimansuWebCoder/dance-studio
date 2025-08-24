@@ -18,13 +18,7 @@ export default function Media() {
     { id: 3, type: "image", src: "/images/gallery3.jpeg" },
     { id: 4, type: "image", src: "/images/gallery4.jpeg" },
     { id: 5, type: "image", src: "/images/gallery5.jpeg" },
-    // { id: 3, type: "video", src: "/videos/dance.mp4" },
-    // { id: 4, type: "image", src: "/images/dance.webp" },
-    // { id: 5, type: "video", src: "/videos/dance.mp4" },
     { id: 6, type: "image", src: "/images/gallery6.jpeg" },
-    { id: 6, type: "image", src: "/images/gallery7.jpeg" },
-    { id: 6, type: "image", src: "/images/gallery8.jpeg" },
-    { id: 6, type: "image", src: "/images/achievement1.jpeg" },
   ];
 
   return (
