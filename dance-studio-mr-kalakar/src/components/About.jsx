@@ -4,7 +4,7 @@ function About() {
   {/* Image Section */}
   <div className="col-span-2 rounded-xl overflow-hidden hover:scale-105 transition-transform duration-500">
     <img 
-      src="/images/mentor.jpeg" 
+      src="/images/studio.webp" 
       alt="MR Kalakar Dance Studio" 
       className="w-full h-full object-cover"
     />

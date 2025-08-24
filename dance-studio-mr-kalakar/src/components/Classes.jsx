@@ -48,7 +48,7 @@ function Classes() {
     >
       <div className="overflow-hidden">
         <img 
-          src="/images/hindustani.jpg" 
+          src="/images/hindustani-vocals.jpg" 
           alt="Ballet" 
           className="w-full h-48 object-cover object-[25%_10%] transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
         />
@@ -174,7 +174,7 @@ function Classes() {
     >
       <div className="overflow-hidden">
         <img 
-          src="/images/sangeet-choreography.jpg" 
+          src="/images/sangeet-choreography.jpeg" 
           alt="Heels" 
           className="w-full h-48 object-cover transform transition duration-500 group-hover:scale-110 group-focus:scale-110 active:scale-110" 
         />

@@ -7,12 +7,12 @@ export default function Studio() {
     <div className="max-w-7xl mx-auto md:px-0 px-4 flex justify-center items-center flex-col ">
 
       {/* Main Display */}
-      <div className="flex flex-col md:flex-row w-full  p-0 rounded-2xl justify-center items-center h-[400px] md:h-[500px] gap-6 mb-10">
+      <div className="flex flex-col md:flex-row w-full  p-0 rounded-2xl justify-center items-center h-[500px] md:h-[500px] gap-6 mb-10">
         {/* Image Card */}
         {activeMedia === "image" && (
           <div className="flex-1 rounded-2xl w-full  h-full overflow-hidden shadow-lg">
             <img
-              src="/images/studio.png"
+              src="/images/studio3.webp"
               alt="Studio"
               className="w-full h-full object-cover transform hover:scale-105 transition duration-500"
             />
@@ -23,7 +23,7 @@ export default function Studio() {
 
         {/* Video Card */}
         {activeMedia === "video" && (
-          <div className="flex-1 rounded-2xl w-full h-[400px] overflow-hidden shadow-lg">
+          <div className="flex-1 rounded-2xl w-full h-[500px] overflow-hidden shadow-lg">
             {/*<video
               src="/videos/dance.mp4"
               className="w-full h-full object-cover"
@@ -32,6 +32,11 @@ export default function Studio() {
               autoPlay
               playsInline
             />*/}
+           <img
+              src="/images/studio2.webp"
+              alt="Studio"
+              className="w-full h-full object-cover transform hover:scale-105 transition duration-500"
+            />
           </div>
         )}
       </div>
@@ -47,7 +52,7 @@ export default function Studio() {
           onClick={() => setActiveMedia("image")}
         >
           <img
-            src="/images/studio.png"
+            src="/images/studio3.webp"
             alt="Studio Image"
             className="w-62 h-40 object-cover"
           />
@@ -60,12 +65,17 @@ export default function Studio() {
           }`}
           onClick={() => setActiveMedia("video")}
         >
-          <video
+          {/*<video
             src="/videos/dance.mp4"
             className="w-62 h-40 object-cover"
             muted
             loop
             playsInline
+          />*/}
+        <img
+            src="/images/studio2.webp"
+            alt="Studio Image"
+            className="w-62 h-40 object-cover"
           />
         </div>
 
