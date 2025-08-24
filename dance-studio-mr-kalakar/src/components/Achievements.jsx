@@ -15,6 +15,9 @@ function Achievements() {
             />
           </div>
         </div>
+          <div className="h-[200px] md:h-[280px] rounded-xl bg-gradient-to-r from-blue-600 via-purple-400 via-green-400 via-red-400 to-blue-600 p-0 rounded-xl overflow-hidden">
+            <img src="/images/achievement7.jpeg" alt="" className="w-full h-full rounded-xl object-cover transform hover:scale-110 transition duration-500" />
+          </div>
 
         {/* Two Small Grid */}
         {/*<div className="grid grid-rows-2 grid-cols-1 gap-2 ">*/}
