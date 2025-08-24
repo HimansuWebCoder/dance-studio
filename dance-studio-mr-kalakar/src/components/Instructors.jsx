@@ -3,14 +3,16 @@ export default function Instructors() {
     {
       name: "Mausumi Das",
       role: "Hip-Hop Instructor",
-      image: "/images/mentor.jpeg",
-      bio: "Specialist in freestyle, urban hip-hop, and choreography with 4+ years of experience.",
+      image: "/images/instructor1.jpeg",
+      bio: "Energetic and inspiring dance mentor.",
+      // bio: "Specialist in freestyle, urban hip-hop, and choreography with 4+ years of experience.",
     },
     {
-      name: "Meera Patel",
-      role: "Odissi & Classical Instructor",
-      image: "/images/dance.webp",
-      bio: "Trained in Odissi & Hindustani dance forms, blending tradition with contemporary expression.",
+      name: "Raj roxy",
+      role: "Coreographer Instructor",
+      image: "/images/instructor2.webp",
+      bio: "Creative and passionate choreographer"
+      // bio: "Trained in Odissi & Hindustani dance forms, blending tradition with contemporary expression.",
     },
   ];
 
@@ -23,14 +25,14 @@ export default function Instructors() {
         </h2>*/}
 
         {/* Cards */}
-        <div className="grid md:grid-cols-2 grid-cols-1 place-content-center gap-2 ">
+        <div className="grid md:grid-cols-2  grid-cols-1 place-content-center gap-2 ">
           {instructors.map((inst, index) => (
             <div
               key={index}
               // className="bg-white w-[18rem] md:w-fit md:text-left text-center shadow-xl flex justify-center items-center p-2 md:flex-row flex-col rounded-2xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
-              className="bg-white h-50 md:w-fit md:text-left text-center shadow-xl grid grid-cols-2 place-content-center place-items-center p-2  rounded-2xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+              className="bg-white h-50 md:w-full md:text-left text-center shadow-xl grid grid-cols-2 place-content-center place-items-center p-2  rounded-2xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
             >
-              <div className=" w-[8rem] h-[8rem] md:h-[7rem] md:w-[7rem] flex justify-center items-center aspect-[1/1]">
+              <div className=" w-[8rem] h-[8rem] aspect-[1/1] rounded-full md:h-[7rem] md:w-[7rem] flex justify-center items-center aspect-[1/1]">
                 <img
                   src={inst.image}
                   alt={inst.name}
