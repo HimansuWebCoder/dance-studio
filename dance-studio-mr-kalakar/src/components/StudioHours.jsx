@@ -45,7 +45,7 @@ export default function StudioHours() {
           }`}
         >
           <h4 className="text-lg font-semibold mb-2">Weekdays</h4>
-          <p className="text-sm">Mon – Fri</p>
+          <p className="text-sm">Mon – Sat</p>
         </button>
 
         <button
@@ -57,7 +57,7 @@ export default function StudioHours() {
           }`}
         >
           <h4 className="text-lg font-semibold mb-2">Weekends</h4>
-          <p className="text-sm">Sat – Sun</p>
+          <p className="text-sm">Sun</p>
         </button>
       </div>
     </section>
