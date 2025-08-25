@@ -48,7 +48,10 @@ export default function TestimonialSlider() {
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={30}
         slidesPerView={1}
-        navigation
+        navigation={{
+          nextEl: ".custom-next",
+          prevEl: ".custom-prev",
+        }}
         pagination={{ clickable: true }}
         autoplay={{ delay: 5000 }}
         loop={true}
